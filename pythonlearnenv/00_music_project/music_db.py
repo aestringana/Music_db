@@ -39,12 +39,9 @@ cursor.execute('''
 # method is called on the connection
 #object (conn) to commit the changes made 
 #to the database.
-
 conn.commit()
 
-
 #Inserting sample data into the 'songs' table
-
 songs_data = [
 	('Blinding Lights', 'The Weeknd', 'After Hours', 2020),
     ('Levitating', 'Dua Lipa', 'Future Nostalgia', 2020),
@@ -57,14 +54,26 @@ songs_data = [
     ('Bad Guy', 'Billie Eilish', 'When We All Fall Asleep, Where Do We Go?', 2019),
     ('Rockstar', 'DaBaby feat. Roddy Ricch', 'Blame It on Baby', 2020)
 ]
+#Fuction Definitions
+def check_duplicate_song(cursor, title, artist):
+	query = "SELECT COUNT(*) FROM songs WHERE title = %s AND artist = %s;"
+	cursor.execute(query,(title, artist))
+	count = cursor.fetchone()[0]
+	return count > 0
 
-#Inserting sample data into the 'songs' table
-
+# Insert new songs only if they do not already exist in the database
+#Create 'songs_data' contains tuples representing the songs to be inserted
+#into the data base.
 for song in songs_data:
-	cursor.execute('''
-		INSERT INTO songs (title, artist, album, release_year)
-		VALUES (%s, %s, %s, %s)
-		''', song)
+	#Unpack tutple 'song' for eassier acces.
+	title, artist, album, release_year = song
+	if not check_duplicate_song(cursor, title, artist):
+		cursor.execute('''
+			INSERT INTO songs (title, artist, album, release_year)
+			VALUES (%s, %s, %s, %s)
+			''', song)
+	else: 
+			print(f'''Song "{title}" by "{artist}" already exist in the database.\n''')
 
 #Committing the changes
 #After inserting the sample data, the commit() 
