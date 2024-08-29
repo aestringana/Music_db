@@ -1,0 +1,5 @@
+2024-08-29 11:30:41,254 - INFO - Successfully connected to the database
+2024-08-29 11:32:12,052 - INFO - Successfully connected to the database
+2024-08-29 11:32:54,252 - ERROR - Error connecting to the database: connection to server at "localhost" (::1), port 5432 failed: FATAL:  role "postgress" does not exist
+
+2024-08-29 11:34:04,012 - INFO - Successfully connected to the database
