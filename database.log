@@ -3,3 +3,51 @@
 2024-08-29 11:32:54,252 - ERROR - Error connecting to the database: connection to server at "localhost" (::1), port 5432 failed: FATAL:  role "postgress" does not exist
 
 2024-08-29 11:34:04,012 - INFO - Successfully connected to the database
+2024-08-29 16:00:12,169 - INFO - Successfully connected to the database
+2024-08-29 16:00:12,170 - INFO - Successfully read data from CSV file: cleaned_music_data.csv
+2024-08-29 16:00:12,178 - INFO - Data inserted into database Successfully
+2024-08-29 16:00:12,178 - INFO - Database connection closed
+2024-08-29 16:11:43,134 - INFO - Successfully connected to the database
+2024-08-29 16:11:43,134 - INFO - Successfully read data from CSV file: cleaned_music_data.csv
+2024-08-29 16:11:43,136 - INFO - Duplicate check: found 1 duplicates for Title='Bohemian Rhapsody', Artist='Queen'
+2024-08-29 16:11:43,136 - INFO - Duplicate check: found 1 duplicates for Title='Hotel California', Artist='Eagles'
+2024-08-29 16:11:43,136 - INFO - Duplicate check: found 1 duplicates for Title='Billie Jean', Artist='Michael Jackson'
+2024-08-29 16:11:43,137 - INFO - Duplicate check: found 1 duplicates for Title='Imagine', Artist='John Lennon'
+2024-08-29 16:11:43,137 - INFO - Duplicate check: found 1 duplicates for Title='Smells Like Teen Spirit', Artist='Nirvana'
+2024-08-29 16:11:43,137 - INFO - Duplicate check: found 1 duplicates for Title='Like a Rolling Stone', Artist='Bob Dylan'
+2024-08-29 16:11:43,137 - INFO - Duplicate check: found 1 duplicates for Title='Stairway to Heaven', Artist='Led Zeppelin'
+2024-08-29 16:11:43,137 - INFO - Duplicate check: found 1 duplicates for Title='What's Going On', Artist='Marvin Gaye'
+2024-08-29 16:11:43,137 - INFO - Duplicate check: found 1 duplicates for Title='Sweet Child O' Mine', Artist='Guns N' Roses'
+2024-08-29 16:11:43,138 - INFO - Duplicate check: found 1 duplicates for Title='Rolling in the Deep', Artist='Adele'
+2024-08-29 16:11:43,138 - INFO - Duplicate check: found 1 duplicates for Title='Superstition', Artist='Stevie Wonder'
+2024-08-29 16:11:43,138 - INFO - Duplicate check: found 1 duplicates for Title='I Will Always Love You', Artist='Whitney Houston'
+2024-08-29 16:11:43,138 - INFO - Duplicate check: found 1 duplicates for Title='Hey Jude', Artist='The Beatles'
+2024-08-29 16:11:43,138 - INFO - Duplicate check: found 1 duplicates for Title='Purple Rain', Artist='Prince'
+2024-08-29 16:11:43,138 - INFO - Duplicate check: found 1 duplicates for Title='Respect', Artist='Aretha Franklin'
+2024-08-29 16:11:43,138 - INFO - Duplicate check: found 1 duplicates for Title='Shake It Off', Artist='Taylor Swift'
+2024-08-29 16:11:43,139 - INFO - Duplicate check: found 1 duplicates for Title='Wonderwall', Artist='Oasis'
+2024-08-29 16:11:43,139 - INFO - Duplicate check: found 1 duplicates for Title='Blinding Lights', Artist='The Weeknd'
+2024-08-29 16:11:43,139 - INFO - Duplicate check: found 1 duplicates for Title='Losing My Religion', Artist='R.E.M.'
+2024-08-29 16:11:43,139 - INFO - Duplicate check: found 1 duplicates for Title='Uptown Funk', Artist='Mark Ronson ft. Bruno Mars'
+2024-08-29 16:11:43,139 - INFO - Duplicate check: found 1 duplicates for Title='Shape of You', Artist='Ed Sheeran'
+2024-08-29 16:11:43,139 - INFO - Duplicate check: found 1 duplicates for Title='Thriller', Artist='Michael Jackson'
+2024-08-29 16:11:43,140 - INFO - Duplicate check: found 1 duplicates for Title='Rolling in the Deep', Artist='Adele'
+2024-08-29 16:11:43,140 - INFO - Duplicate check: found 1 duplicates for Title='Somebody That I Used to Know', Artist='Gotye'
+2024-08-29 16:11:43,140 - INFO - Duplicate check: found 1 duplicates for Title='Poker Face', Artist='Lady Gaga'
+2024-08-29 16:11:43,140 - INFO - Duplicate check: found 1 duplicates for Title='Single Ladies', Artist='BeyoncÂ'
+2024-08-29 16:11:43,140 - INFO - Duplicate check: found 1 duplicates for Title='Born to Run', Artist='Bruce Springsteen'
+2024-08-29 16:11:43,140 - INFO - Duplicate check: found 1 duplicates for Title='Don't Stop Believin'', Artist='Journey'
+2024-08-29 16:11:43,141 - INFO - Duplicate check: found 1 duplicates for Title='Back in Black', Artist='AC/DC'
+2024-08-29 16:11:43,141 - INFO - Duplicate check: found 1 duplicates for Title='Bad Guy', Artist='Billie Eilish'
+2024-08-29 16:11:43,141 - INFO - Duplicate check: found 1 duplicates for Title='Rolling in the Deep', Artist='Adele'
+2024-08-29 16:11:43,141 - INFO - Duplicate check: found 1 duplicates for Title='Shallow', Artist='Lady Gaga & Bradley Cooper'
+2024-08-29 16:11:43,141 - INFO - Duplicate check: found 1 duplicates for Title='Yesterday', Artist='The Beatles'
+2024-08-29 16:11:43,141 - INFO - Duplicate check: found 1 duplicates for Title='Take Me to Church', Artist='Hozier'
+2024-08-29 16:11:43,142 - INFO - Duplicate check: found 1 duplicates for Title='Hello', Artist='Adele'
+2024-08-29 16:11:43,142 - INFO - Duplicate check: found 1 duplicates for Title='Closer', Artist='The Chainsmokers ft. Halsey'
+2024-08-29 16:11:43,142 - INFO - Duplicate check: found 1 duplicates for Title='Bohemian Rhapsody', Artist='Queen'
+2024-08-29 16:11:43,142 - INFO - Duplicate check: found 1 duplicates for Title='All of Me', Artist='John Legend'
+2024-08-29 16:11:43,142 - INFO - Duplicate check: found 1 duplicates for Title='Sorry', Artist='Justin Bieber'
+2024-08-29 16:11:43,142 - INFO - Duplicate check: found 1 duplicates for Title='Hello', Artist='Lionel Richie'
+2024-08-29 16:11:43,143 - INFO - Data inserted into database successfully
+2024-08-29 16:11:43,143 - INFO - Database connection closed
